@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CloudScale - Project 2</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 16px;
+      padding: 48px;
+      text-align: center;
+      max-width: 600px;
+      backdrop-filter: blur(10px);
+    }
+    .logo { font-size: 3rem; margin-bottom: 16px; }
+    h1 { font-size: 2rem; margin-bottom: 8px; color: #e94560; }
+    h2 { font-size: 1.2rem; font-weight: 400; margin-bottom: 24px; color: #a0aec0; }
+    .badge {
+      display: inline-block;
+      background: #e94560;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-weight: 600;
+      margin: 6px;
+      font-size: 0.9rem;
+    }
+    .info {
+      margin-top: 32px;
+      padding: 16px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #a0aec0;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">☁️</div>
+    <h1>CloudScale Infrastructure</h1>
+    <h2>Deployed by Abdalhakim — Project 2</h2>
+    <div>
+      <span class="badge">🐳 Docker</span>
+      <span class="badge">🏗️ Terraform</span>
+      <span class="badge">⚡ Azure ACI</span>
+      <span class="badge">🔄 GitHub Actions</span>
+    </div>
+    <div class="info">
+      <strong>Student:</strong> Abdalhakim Elghweiry<br/>
+      <strong>Course:</strong> Cloud Computing & DevOps Engineering<br/>
+      <strong>Platform:</strong> Azure Container Instances<br/>
+      <strong>IaC Tool:</strong> Terraform v1.9.8
+    </div>
+  </div>
+</body>
+</html>
